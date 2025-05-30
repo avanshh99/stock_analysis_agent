@@ -40,6 +40,7 @@ cd stock_analysis_agent
 # (Recommended) Use a virtual environment (windows):
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ## 🔑 Adding API Keys
 
