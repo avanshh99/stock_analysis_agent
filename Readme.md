@@ -59,11 +59,8 @@ Some features need API keys (for real-time data & AI):
 
    # Google Gemini API (for Gemini Pro & Gemini 1.5)
    GOOGLE_API_KEY=your_google_gemini_api_key_here
-
-   # Google Vertex AI
-   GOOGLE_VERTEX_PROJECT=your_vertex_project_id
-   GOOGLE_VERTEX_LOCATION=your_vertex_location
-   GOOGLE_VERTEX_API_KEY=your_vertex_api_key_here
+   GOOGLE_GENAI_USE_VERTEXAI=FALSE
+   
    ```
 
 3. Install `python-dotenv` if needed.
