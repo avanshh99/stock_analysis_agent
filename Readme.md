@@ -37,13 +37,9 @@ Ask questions like:
 git clone https://github.com/avanshh99/stock_analysis_agent.git
 cd stock_analysis_agent
 
-# (Recommended) Use a virtual environment:
+# (Recommended) Use a virtual environment (windows):
 python3 -m venv venv
 source venv/bin/activate
-
-# Install dependencies (if requirements.txt is present)
-pip install -r requirements.txt
-```
 
 ## 🔑 Adding API Keys
 
@@ -76,6 +72,21 @@ from multi_tool_agent import agent as multi_tool
 # Examples:
 # stock_agent.analyze('AAPL')
 # multi_tool.run_custom_workflow(...)
+```
+## 🏁 Running the Agent
+
+To launch the agent using Google ADK’s web interface, simply run the following command in your terminal:
+
+```bash
+adk web
+```
+
+This will start the ADK web server, allowing you to interact with your agents through a browser UI.
+
+If you want to run the agent module directly (for example, for testing):
+
+```bash
+python -m stock_anaylsis_agent.agent
 ```
 
 ## 🤝 Contributing
