@@ -38,7 +38,7 @@ git clone https://github.com/avanshh99/stock_analysis_agent.git
 cd stock_analysis_agent
 
 # (Recommended) Use a virtual environment (windows):
-python3 -m venv venv
+python3 -m venv <env-name>
 source venv/bin/activate
 ```
 
